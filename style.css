@@ -64,8 +64,12 @@ li{
     justify-content: space-between;
     align-items: center;
 }
-li.completed span{
+//both for task and button
+li.completed{
     opacity: 0.7;
+}
+//only for Task text
+li.completed span{
     text-decoration: line-through;
 }
 li button{
